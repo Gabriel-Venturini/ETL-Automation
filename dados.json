@@ -1,0 +1,77 @@
+[
+    {
+       "tipo": "UNIDADE_PRODUCAO",
+       "atributos": [
+          {"numero": 1, "peca_hora_nominal": 50.0},
+          {"numero": 2, "peca_hora_nominal": 60.0},
+          {"numero": 3, "peca_hora_nominal": 55.0},
+          {"numero": 4, "peca_hora_nominal": 45.0},
+          {"numero": 5, "peca_hora_nominal": 70.0},
+          {"numero": 6, "peca_hora_nominal": 58.0},
+          {"numero": 7, "peca_hora_nominal": 62.0},
+          {"numero": 8, "peca_hora_nominal": 48.0},
+          {"numero": 9, "peca_hora_nominal": 53.0},
+          {"numero": 10, "peca_hora_nominal": 0.2}
+       ]
+    },
+    {
+       "tipo": "REGISTRO_FALHA",
+       "atributos": [
+          {"id": 1, "severidade": 1, "inicio": "2024-04-10 08:00:00", "fim": "2024-04-10 08:30:00", "numero_unidade_producao": 1},
+          {"id": 2, "severidade": 0, "inicio": "2024-04-10 10:00:00", "fim": "2024-04-10 10:15:00", "numero_unidade_producao": 9},
+          {"id": 3, "severidade": 1, "inicio": "2024-04-10 12:00:00", "fim": "2024-04-10 12:45:00", "numero_unidade_producao": 1},
+          {"id": 4, "severidade": 0, "inicio": "2024-04-10 14:00:00", "fim": "2024-04-10 14:30:00", "numero_unidade_producao": 2},
+          {"id": 5, "severidade": 1, "inicio": "2024-04-10 16:00:00", "fim": "2024-04-10 16:45:00", "numero_unidade_producao": 2},
+          {"id": 6, "severidade": 0, "inicio": "2024-04-10 18:00:00", "fim": "2024-04-10 18:15:00", "numero_unidade_producao": 6},
+          {"id": 7, "severidade": 1, "inicio": "2024-04-10 20:00:00", "fim": "2024-04-10 20:30:00", "numero_unidade_producao": 7},
+          {"id": 8, "severidade": 0, "inicio": "2024-04-10 22:00:00", "fim": "2024-04-10 22:15:00", "numero_unidade_producao": 8},
+          {"id": 9, "severidade": 1, "inicio": "2024-04-10 23:30:00", "fim": "2024-04-10 23:45:00", "numero_unidade_producao": 10},
+          {"id": 10, "severidade": 0, "inicio": "2024-04-11 01:00:00", "fim": "2024-04-11 01:30:00", "numero_unidade_producao": 10}
+       ]
+    },
+    {
+       "tipo": "PECA",
+       "atributos": [
+          {"numero": 1, "status": "Aprovada", "inicio_fabricacao": "2024-04-10 08:15:00", "fim_fabricacao": "2024-04-10 08:45:00", "numero_unidade_producao": 1},
+          {"numero": 2, "status": "Reprovada", "inicio_fabricacao": "2024-04-10 10:30:00", "fim_fabricacao": "2024-04-10 10:45:00", "numero_unidade_producao": 2},
+          {"numero": 3, "status": "Aprovada", "inicio_fabricacao": "2024-04-10 12:15:00", "fim_fabricacao": "2024-04-10 12:30:00", "numero_unidade_producao": 3},
+          {"numero": 4, "status": "Aprovada", "inicio_fabricacao": "2024-04-10 14:30:00", "fim_fabricacao": "2024-04-10 14:45:00", "numero_unidade_producao": 4},
+          {"numero": 5, "status": "Reprovada", "inicio_fabricacao": "2024-04-10 16:15:00", "fim_fabricacao": "2024-04-10 16:30:00", "numero_unidade_producao": 5},
+          {"numero": 6, "status": "Aprovada", "inicio_fabricacao": "2024-04-10 18:30:00", "fim_fabricacao": "2024-04-10 18:45:00", "numero_unidade_producao": 6},
+          {"numero": 7, "status": "Aprovada", "inicio_fabricacao": "2024-04-10 20:30:00", "fim_fabricacao": "2024-04-10 20:45:00", "numero_unidade_producao": 7},
+          {"numero": 8, "status": "Reprovada", "inicio_fabricacao": "2024-04-10 22:45:00", "fim_fabricacao": "2024-04-10 23:00:00", "numero_unidade_producao": 8},
+          {"numero": 9, "status": "Aprovada", "inicio_fabricacao": "2024-04-10 23:45:00", "fim_fabricacao": "2024-04-10 23:55:00", "numero_unidade_producao": 9},
+          {"numero": 10, "status": "Aprovada", "inicio_fabricacao": "2024-04-11 01:30:00", "fim_fabricacao": "2024-04-11 01:45:00", "numero_unidade_producao": 10}
+       ]
+    },
+    {
+       "tipo": "SOPRADORA",
+       "atributos": [
+          {"numero": 1, "vazao_sopro": 10.0, "pressao_sopro": 2.0},
+          {"numero": 2, "vazao_sopro": 12.0, "pressao_sopro": 2.5},
+          {"numero": 3, "vazao_sopro": 11.0, "pressao_sopro": 2.2}
+       ]
+    },
+    {
+       "tipo": "FRESADORA",
+       "atributos": [
+          {"numero": 4, "velocidade_rotacao": 480.0, "profundidade_corte": 4.5},
+          {"numero": 5, "velocidade_rotacao": 620.0, "profundidade_corte": 6.2},
+          {"numero": 6, "velocidade_rotacao": 530.0, "profundidade_corte": 5.3}
+       ]
+    },
+    {
+       "tipo": "TORNO_CNC",
+       "atributos": [
+          {"numero": 7, "velocidade_rotacao": 1150.0, "tolerancia": 0.022},
+          {"numero": 8, "velocidade_rotacao": 980.0, "tolerancia": 0.012},
+          {"numero": 9, "velocidade_rotacao": 1075.0, "tolerancia": 0.019}
+       ]
+    },
+    {
+       "tipo": "IMPRESSORA_3D",
+       "atributos": [
+          {"numero": 10, "espessura_camada": 0.12, "tipo_material": "ABS"}
+       ]
+    }
+ ]
